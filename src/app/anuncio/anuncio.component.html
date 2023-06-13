@@ -11,7 +11,7 @@
           </div>
           <div class="row mb-3">
               <div class="col-2">
-                  <label for="titulo" class="form-label">Titulo: </label>
+                  <label for="titulo" class="form-label">TÍtulo: </label>
               </div>
               <div class="col">
                   <input type="text" class="form-control" id="titulo" placeholder="None" formControlName="titulo">
@@ -37,5 +37,17 @@
               <button class="btn btn-outline-dark" (click)="save()">SALVAR</button>
           </div>
       </form>
+  </div>
+</div>
+<div class="row pe-3 ps-3 mb-5">
+  <div class="col-8 mx-auto">
+    <div class="card mb-3" *ngFor="let anuncio of anuncios">
+      <h5 class="card-title mt-3">#{{anuncio.id}} - {{anuncio.titulo}}</h5>
+      <img src={{anuncio.img}} class="card-img-top pe-3 ps-3">
+      <div class="card-body">
+        <p class="card-text">{{anuncio.textA}}</p>
+        <a href="#" class="btn btn-primary">R$ {{anuncio.preco}}</a>
+      </div>
+    </div>
   </div>
 </div>

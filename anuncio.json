@@ -1,0 +1,39 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "img": "https://cdn.dooca.store/194/products/console-sony-ps5-god-of-war-ragnar-k-branco-1667824478-gg.jpg",
+      "titulo": "PlayStation 5",
+      "textA": "O melhor console para jagar jogos de história sozinho.",
+      "preco": 4099.99
+    },
+    {
+      "id": 2,
+      "img": "https://db7qxt7xxlq5m.cloudfront.net/n49shopv2_papelecia/images/products/60b658aa9fc56/xbox1jpg.jpg",
+      "titulo": "Xbox Serie X",
+      "textA": "O melhor console para jogar jodos multijogador online.",
+      "preco": 4046.45
+    },
+    {
+      "id": 3,
+      "img": "https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/258187-1000-1000/a_223109_alta_10.png",
+      "titulo": "Xbox Serie S",
+      "textA": "O melhor console custo benefício para jogar no Game Pass Ultimate.",
+      "preco": 2035.65
+    },
+    {
+      "id": 4,
+      "img": "https://images.tcdn.com.br/img/img_prod/1066780/console_nintendo_switch_oled_com_joy_con_branco_hbgskaaa2_7773_1_60ea2f441eba2477a3f1fb7813bc658c.jpg",
+      "titulo": "Nintendo Switch Oled",
+      "textA": "O melhor console para jogar os jogos os próprios jogos da nintendo, os mais recentes pelo menos.",
+      "preco": 2259.89
+    },
+    {
+      "id": 5,
+      "img": "https://cdn.awsli.com.br/2500x2500/2443/2443989/produto/173054992f9d268f2c2.jpg",
+      "titulo": "Nintendo Switch Lite",
+      "textA": "O melhor console para ",
+      "preco": 1299.91
+    }
+  ]
+}

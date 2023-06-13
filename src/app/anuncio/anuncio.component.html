@@ -1,1 +1,41 @@
-<p>anuncio works!</p>
+<div class="row pe-3 ps-3">
+  <div class="col mt-5 m-auto">
+      <form [formGroup]="formGroupAnuncio">
+          <div class="row mb-3">
+            <div class="col-2">
+                <label for="img" class="form-label text-start">Imagem: </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" id="img" placeholder="url da imagem" formControlName="img">
+            </div>
+          </div>
+          <div class="row mb-3">
+              <div class="col-2">
+                  <label for="titulo" class="form-label">Titulo: </label>
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" id="titulo" placeholder="None" formControlName="titulo">
+              </div>
+          </div>
+          <div class="row mb-3">
+              <div class="col-2">
+                  <label for="textA" class="form-label text-start">Descrição: </label>
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" id="textA" placeholder="None" formControlName="textA">
+              </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-2">
+                <label for="preco" class="form-label text-start">Preço: </label>
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" id="preco" placeholder="0.00" formControlName="preco">
+            </div>
+          </div>
+          <div class="mb-3 d-flex justify-content-end">
+              <button class="btn btn-outline-dark" (click)="save()">SALVAR</button>
+          </div>
+      </form>
+  </div>
+</div>
